@@ -1,1 +1,1 @@
-# credito
+README: credito
