@@ -85,13 +85,9 @@ angular.module('mean.credito').service('$menuItemsCredito', [
         {
             this.menuItems = [];
 
-            var organizacion = this.addItem('Organizacion', '', 'linecons-inbox');
-            var rrhh = this.addItem('Rrhh', '', 'linecons-inbox');
+            var organizacion = this.addItem('Registro', '', 'linecons-inbox');
 
-            organizacion.addItem('Sucursales', 'rrhh.app.organizacion.buscarSucursales');
-            organizacion.addItem('Agencias', 'rrhh.app.organizacion.buscarAgencias');
-
-            rrhh.addItem('Trabajadores', 'rrhh.app.rrhh.buscarTrabajadores');
+            organizacion.addItem('Registrar', 'rrhh.app.organizacion.buscarSucursales');
 
             return this;
         };
