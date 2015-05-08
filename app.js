@@ -24,7 +24,7 @@ Credito.register(function(app, auth, database) {
     menu: 'main'
   });
   
-  Credito.aggregateAsset('css', 'credito.css');
+  //Credito.aggregateAsset('css', 'credito.css');
 
   return Credito;
 });
